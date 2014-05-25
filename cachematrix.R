@@ -1,5 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Very similar to the example given in the instructions, the first function
+## makeCacheMatrix creates a special "matrix", which is really a list containing
+## a function to: set/get the value of the matrix; set/get the inverse of
+## the matrix.
+## The second function calculates the inverse of the matrix created in the 
+## first function -- after it checks whether the inverse has been already
+## calcuated. If yes, then it'll just return the cached value of the inverse.
 
 ## This function creats a special "matrix" object that can cache its inverse
 
